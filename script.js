@@ -25,24 +25,24 @@ const COACHES = [
 const SERVICES_COURSES = [
     
     {
-        title: "Khóa Basic Trắng Gói",
+        title: "Khóa cơ bản mới bắt đầu dưới 1 năm",
         desc: "12 buổi hướng dẫn cầm vợt, di chuyển 6 góc và các kỹ thuật phông, gài lưới cơ bản. Tặng áo tập BLAB.",
         price: "1.500.000 VNĐ / Khóa",
-        img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=500"
+        img: "img/img.lopcoban.png"
     },
     
     {
-        title: "Khóa Basic Trắng Gói",
-        desc: "12 buổi hướng dẫn cầm vợt, di chuyển 6 góc và các kỹ thuật phông, gài lưới cơ bản. Tặng áo tập BLAB.",
-        price: "1.500.000 VNĐ / Khóa",
-        img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=500"
+        title: "Khóa Chuyên Nghiệp trên 2 năm",
+        desc: "12 buổi hướng dẫn về tư duy di chuyển, các kiểu đập cầu, chặt cầu, chém cầu chuyên nghiệp. Tặng áo tập BLAB và quấn cán BLAB.",
+        price: "2.500.000 VNĐ / Khóa",
+        img: "img/img.lopchuyennghiep.png"
     },
 
     {
-        title: "Khóa Basic Trắng Gói",
-        desc: "12 buổi hướng dẫn cầm vợt, di chuyển 6 góc và các kỹ thuật phông, gài lưới cơ bản. Tặng áo tập BLAB.",
-        price: "1.500.000 VNĐ / Khóa",
-        img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=500"
+        title: "Khóa Thi Đấu Nâng Cao",
+        desc: "12 buổi + 4 buổi tập luyện trong môi trường thi đấu thực tế, được học các kỹ thuật đánh lừa đối thủ, học kỹ thuật tâm lý. Tặng áo tập BLAB và tham gia các giải đấu do BLAB tổ chức.",
+        price: "3.500.000 VNĐ / Khóa",
+        img: "img/img.thidauchuyennghiep.png"
     },
 
     
@@ -50,28 +50,28 @@ const SERVICES_COURSES = [
 
 const SHOP_ITEMS = [
     {
-        title: "Vợt BLAB Worldwide Pro",
-        desc: "Dòng vợt độc quyền thiết kế thân trắng nhám, nặng đầu, trợ lực hoàn hảo cho những cú Smash nổ sân.",
-        price: "3.250.000 VNĐ",
-        img: "https://images.unsplash.com/photo-1613564834644-a17084898636?auto=format&fit=crop&q=80&w=500"
+        title: "Vợt YONEX ARCSABER 11 PRO",
+        desc: " Vợt cầu lông Yonex Arcsaber 11 Pro được Yonex phát hành giữa năm 2024 phối màu Grayish Pearl (Ngọc Trai Xám) sơn nhám trên tổng thể vợt cho cái nhìn hiện đại và cứng cáp chắc chắn sẽ làm các lông thủ cực ưng ý ngay từ lần chạm mặt đầu tiên. Vợt chuyên thiên hướng giúp chơi kiểm xoát cầu đều cầu, cho ra những cú phông đến cuối sân dễ dàng hay nhưng pha đập cầu cháy sân với nhiểu công nghệ tiên tiến trên thân vợt.",
+        price: "5.099.000 VNĐ",
+        img: "img/img.11pro.png"
     },
     {
-        title: "Vợt BLAB Worldwide Pro",
-        desc: "Dòng vợt độc quyền thiết kế thân trắng nhám, nặng đầu, trợ lực hoàn hảo cho những cú Smash nổ sân.",
-        price: "3.250.000 VNĐ",
-        img: "https://images.unsplash.com/photo-1613564834644-a17084898636?auto=format&fit=crop&q=80&w=500"
+        title: "Vợt YONEX NANOFLARE 800 Pro",
+        desc: "Vợt cầu lông Yonex Nanoflare 800 Pro thuộc series mới và HOT nhất của nhà Yonex trong cuối năm 2023, được chính thức được ra mắt vào ngày 17/11/2023 hứa hẹn sẽ mang lại cơn sốt trên thị trường cầu lông thế giới như những gì mà đàn anh Nanoflare 1000zz . Đối tượng chính muốn hướng đến là những người chơi bán chuyên, chuyên nghiệp và các VĐV thi đấu.",
+        price: "5.039.000 VNĐ",
+        img: "img/img.800.png"
     },
     {
-        title: "Vợt BLAB Worldwide Pro",
-        desc: "Dòng vợt độc quyền thiết kế thân trắng nhám, nặng đầu, trợ lực hoàn hảo cho những cú Smash nổ sân.",
-        price: "3.250.000 VNĐ",
-        img: "https://images.unsplash.com/photo-1613564834644-a17084898636?auto=format&fit=crop&q=80&w=500"
+        title: "Vợt YONEX ASTROX 100ZZ NAVY",
+        desc: "Vợt cầu lông Yonex Astrox 100ZZ Dark Navy đối với những người chơi nâng cao đang tìm cách nâng cấp trò chơi của họ với chuyển động nhanh hơn và những cú đánh cầu tinh tế mang đẳng cấp vượt trội thì Astrox 100 ZZ là cây vợt cực kỳ phù hợp. Đương nhiên đòi hỏi người chơi cần có kỹ thuật cá nhân cao, lực tay khỏe để phát huy hết công năng của vợt.",
+        price: "4.650.000 VNĐ",
+        img: "img/img.100zznay.png"
     },
     {
-        title: "Giày Yonex Aerus Z White",
-        desc: "Mẫu giày siêu nhẹ bọc da trắng nguyên khối, công nghệ Power Cushion+ chống lật cổ chân.",
-        price: "3.800.000 VNĐ",
-        img: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&q=80&w=500"
+        title: "Giày YONEX SUBAXIA GT MEN",
+        desc: "Giày cầu lông Yonex Subaxia GT Men - Dark Gray là phiên bản kế nhiệm của mẫu giày Grpht Thrttl (hay Graphite Throttle), được ra mắt hồi đầu năm nay. Đây là một mẫu giày cao cấp dành cho những người chơi yêu cầu sự bùng nổ tối đa, độ ổn định và sự thoải mái. Sản phẩm mới này của Yonex được thiết kế để tối ưu hóa mọi cú nhảy, cú đánh và cú tiếp đất thành sức mạnh, mang lại hiệu suất và tốc độ cao hơn mà không ảnh hưởng đến khả năng kiểm soát hoặc sự thoải mái.",
+        price: "3.479.000 VNĐ",
+        img: "img/img.giayyonex.png"
     }
 ];
 
