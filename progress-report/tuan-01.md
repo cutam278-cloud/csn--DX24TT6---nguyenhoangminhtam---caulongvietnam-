@@ -1,31 +1,30 @@
-# Bao cao tien do - Tuan 1
+# Báo cáo tiến độ - Tuần 1
 
-**Thoi gian:** `18/05` - `24/05` (Thu 2 - Thu T)
-**Sinh vien:** `Nguyen Hoang Minh Tam - DX24TT6`
+**Thời gian:** `18/05` - `24/05` (Thứ 2 - Thứ 7)
+**Sinh vien:** `Nguyễn Hoàng MInh Tâm - DX24TT6`
 
-Tuan nay tap trung vao phan chuuan bi cung cap du an: tao repo, lay yeu cau chi tiet, ve ERD, va xay dung skeleton cau truc thu muc + file tro.
+Tuần này tập trung vào phần chuẩn bị cung cấp dự án: tạo repo, lấy yêu cầu chi tiết, về ERD, và xây dựng skeleton cấu trúc thư mục + file tro.
 
-## 1. Noi dung da thuc hien
+## 1. Nội dung đã thực hiện
 
-### 1.1. Tao Repository tren GitHub
-- Tao repo: `csn-dx24tt6-nguyenhoangminhtam-caulongvietnam`
-- Push cau truc ban dau len remote
-- Moi GVHD Duong Ngoc Van Khanh tro thanh collaborator
+### 1.1. Tạo Repository trên GitHub
+- Tạo repo: `csn-dx24tt6-nguyenhoangminhtam-caulongvietnam`
+- Push cấu trúc ban đầu lên remote
+- Mời GVHD Duong Ngoc Van Khanh trở thành collaborator
 
 ### 1.2. Phan tich yeu cau
-- Doc ky chi tiet de tai: website gioi thieu trung tam canh long
-- Xac dinh cap do dung: HTML + CSS + JS static, khong database
-- List ra cac trang can lam: index (trang chu), about (gioi thieu), contact (lien he), news (tin tuc)
+- Đọc kỹ chi tiết để tài: website giới thiệu trung tam thể dục cầu lông
+- Xác định cấp độ dùng: HTML + CSS + JS static, không database
+- List ra các trang cần làm: index (trang chủ), about (gioi thiệu), contact (lien hệ),
 
-### 1.3. Ve ERD va Cau truc Database
-- Tao file `setup/erd.md` voi Mermaid diagram
-- Neu sau nay can mo rong backend + database, co schema san san
-- Chi tiet: bang USERS, CLASSES, SCHEDULES, POSTS, CATEGORIES
+### 1.3. Về ERD và Cấu trúc Database
+- Tạo file `setup/erd.md` với Mermaid diagram
+- Nếu sau này cần mở rộng backend + database, có schema sẳn sàng
+- Chi tiết: bảng USERS, CLASSES, SCHEDULES, POSTS, CATEGORIES
 
-### 1.4. Xay dung Skeleton va Cau truc Thu Muc
-Tao cau truc theo quy dinh trung:
+### 1.4. Xây dựng Skeleton và Cấu trúc Thư Mục
+Tạo cấu trúc theo quy định trung:
 ```
-├── docker/
 ├── progress-report/
 ├── refs/
 ├── setup/
@@ -34,42 +33,41 @@ Tao cau truc theo quy dinh trung:
 ├── package.json
 ├── .gitignore
 ├── .env.example
-├── Dockerfile
 └── README.md
 ```
 
-### 1.5. Tao File Cau Hinh
-- `package.json`: khai bao dependencies (express, dotenv)
-- `.env.example`: template bien moi truong
+### 1.5. Tạo File Cấu Hình
+- `package.json`: khai báo dependencies (express, dotenv)
+- `.env.example`: template biến môi trường
 - `.gitignore`: ignore node_modules, .env, etc
-- Dockerfile + docker-compose.yml: de sau containers phat trien
+- Dockerfile + docker-compose.yml: để sau containers phát triển
 
-## 2. Kho khan (& quyet dinh ky thuat)
+## 2. Khó khăn (& quyết định kỹ thuật)
 
-1. **Chon Express.js thay vi static HTTP server** - chi dung file, ma express cho phep them routing sau, co goi de test responsive.
+1. **Chọn Express.js thay vi static HTTP server** - chỉ dùng file, mà express cho phép thêm routing sau, có gọi để test responsive.
 
-2. **Dung Mermaid ERD di dung database** - giai doan nay khong can backend/DB, ma dung Mermaid de giu mo khoa phat trien tiep theo. Khi doc on va GVHD phe duyet, co the them MySQL/PostgreSQL nhan trong tuan sau.
+2. **Dùng Mermaid ERD di dùng database** - giai đọan này không cần backend/DB, mà dùng Mermaid để giữ mở khóa phát triển tiếp theo. Khi đọc ổn và GVHD phê duyẹt, có thể thêm MySQL/PostgreSQL nhận trong tuần sau.
 
-3. **Khong tao admin panel** - chi focus vao frontend public, dung gon, don gian.
+3. **Không tạo admin panel** - chỉ focus vào frontend public, dùng gọn, đơn giản.
 
-## 3. Ke hoach tuan sau
+## 3. Kế họach tuần sau
 
-- Tuan 2: Code HTML + CSS - trang chu (index) va trang gioi thieu (about)
-- Them responsive design (mobile-first)
-- Tao base styling trong style.css
-- Thu va demo voi di khong bi loi
+- Tuần 2: Code HTML + CSS - trang chủ (index) và trang giới thiệu (about)
+- Thêm responsive design (mobile-first)
+- Tạo base styling trong style.css
+- Thử và demo với di không bị lôi
 
 ## 4. Trang thai code
 
 ```
 ✓ Repo da setup
-✓ Cau truc thu muc tao xong
-✓ Cau hinh ban dau xong
-- HTML content: chua lam
-- CSS styling: chua lam
-- JavaScript: chua lam
+✓ Cấu trúc thư mục tạo xong
+✓ Cấu hình ban đầu xong
+- HTML content: chưa làm
+- CSS styling: chưa làm
+- JavaScript: chưa làm
 ```
 
 **Link repo:** [https://github.com/cutam278-clound/csn-dx24tt6-nguyenhoangminhtam-caulongvietnam](https://github.com/cutam278-clound/csn-dx24tt6-nguyenhoangminhtam-caulongvietnam)
 
-**Ghi chu:** Tuan toi se dat task HTML va CSS kho khon tre cac, tunga va anh dua bao cao qua email GVHD.
+**Ghi chú:** Tuần tới sẽ đạt task HTML va CSS và ảnh đưa báo cáo qua email GVHD.
