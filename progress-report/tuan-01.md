@@ -1,7 +1,7 @@
 # Báo cáo tiến độ - Tuần 1
 
 **Thời gian:** `18/05` - `24/05` (Thứ 2 - Thứ 7)
-**Sinh vien:** `Nguyễn Hoàng MInh Tâm - DX24TT6`
+**Sinh vien:** `Nguyễn Hoàng Minh Tâm - DX24TT6`
 
 Tuần này tập trung vào phần chuẩn bị cung cấp dự án: tạo repo, lấy yêu cầu chi tiết, về ERD, và xây dựng skeleton cấu trúc thư mục + file tro.
 
@@ -12,7 +12,7 @@ Tuần này tập trung vào phần chuẩn bị cung cấp dự án: tạo repo
 - Push cấu trúc ban đầu lên remote
 - Mời GVHD Duong Ngoc Van Khanh trở thành collaborator
 
-### 1.2. Phan tich yeu cau
+### 1.2. Phân tích yêu cầu
 - Đọc kỹ chi tiết để tài: website giới thiệu trung tam thể dục cầu lông
 - Xác định cấp độ dùng: HTML + CSS + JS static, không database
 - List ra các trang cần làm: index (trang chủ), about (gioi thiệu), contact (lien hệ),
