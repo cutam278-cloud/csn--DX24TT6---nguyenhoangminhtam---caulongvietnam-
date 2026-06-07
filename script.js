@@ -80,79 +80,139 @@ const SHOP_ITEMS = [
  */
 function renderData() {
     // 1. Tạo giao diện cho Huấn luyện viên
-    const coachContainer = document.getElementById('coaches-grid');
-    COACHES.forEach(coach => {
-        // Dấu `` (Template Literal) giúp nhúng thẳng HTML và biến JS vào nhau
-        coachContainer.innerHTML += `
-            <div class="card">
-                <img src="${coach.img}" alt="${coach.name}">
-                <div class="card-content">
-                    <h3>${coach.name}</h3>
-                    <p class="card-desc">${coach.desc}</p>
+    const coachContainer = document.getElementById('coaches-grid'); 
+    if (coachContainer) {
+        COACHES.forEach(coach => {
+            // Dấu `` (Template Literal) giúp nhúng thẳng HTML và biến JS vào nhau
+            coachContainer.innerHTML += `
+                <div class="card">
+                    <img src="${coach.img}" alt="${coach.name}">
+                    <div class="card-content">
+                        <h3>${coach.name}</h3>
+                        <p class="card-desc">${coach.desc}</p>
+                    </div>
                 </div>
-            </div>
-        `;
-    });
+            `;
+        });
+    } 
 
     // 2. Tạo giao diện Khóa học & Dịch vụ
     const serviceContainer = document.getElementById('services-grid');
-    SERVICES_COURSES.forEach(item => {
-        serviceContainer.innerHTML += `
-            <div class="card">
-                <img src="${item.img}" alt="${item.title}">
-                <div class="card-content">
-                    <h3>${item.title}</h3>
-                    <p class="card-desc">${item.desc}</p>
-                    <p class="card-price">${item.price}</p>
+    if (serviceContainer) {
+        SERVICES_COURSES.forEach(item => {
+            serviceContainer.innerHTML += `
+                <div class="card">
+                    <img src="${item.img}" alt="${item.title}">
+                    <div class="card-content">
+                        <h3>${item.title}</h3>
+                        <p class="card-desc">${item.desc}</p>
+                        <p class="card-price">${item.price}</p>
+                    </div>
                 </div>
-            </div>
-        `;
-    });
+            `;
+        });
+    }
 
     // 3. Tạo giao diện Shop
     const shopContainer = document.getElementById('shop-grid');
-    SHOP_ITEMS.forEach(product => {
-        shopContainer.innerHTML += `
-            <div class="card">
-                <img src="${product.img}" alt="${product.title}">
-                <div class="card-content">
-                    <h3>${product.title}</h3>
-                    <p class="card-desc">${product.desc}</p>
-                    <p class="card-price">${product.price}</p>
-                    <button class="btn-primary" style="padding: 8px 15px; margin-top: 10px; width:100%">Xem Chi Tiết</button>
+    if (shopContainer) {
+
+        SHOP_ITEMS.forEach(product => {
+            shopContainer.innerHTML += `
+                <div class="card">
+                    <img src="${product.img}" alt="${product.title}">
+                    <div class="card-content">
+                        <h3>${product.title}</h3>
+                        <p class="card-desc">${product.desc}</p>
+                        <p class="card-price">${product.price}</p>
+                        <button class="btn-primary" style="padding: 8px 15px; margin-top: 10px; width:100%">Xem Chi Tiết</button>
+                    </div>
                 </div>
-            </div>
-        `;
-    });
+            `;
+        });
+    }
 }
 
 /**
  * BƯỚC 3: XỬ LÝ SỰ KIỆN GỬI FORM ĐĂNG KÝ
  */
-document.getElementById('registerForm').addEventListener('submit', function(e) {
-    // e.preventDefault() là lệnh cực kỳ quan trọng, chặn web tự động load lại khi nhấn nút Submit
-    e.preventDefault();
+// Bước 1: Tìm cái form và lưu vào biến
+const registerForm = document.getElementById('registerForm');
 
-    // Thu thập dữ liệu khách nhập
-    let name = document.getElementById('name').value;
-    let phone = document.getElementById('phone').value;
-    let msgBox = document.getElementById('form-msg');
+// Bước 2: Dùng lệnh IF thần thánh để kiểm tra xem form có tồn tại ở trang này không
+if (registerForm) {
+    
+    // Nếu có form thì mới cho phép cài đặt sự kiện submit
+    registerForm.addEventListener('submit', function(e) {
+        e.preventDefault();
 
-    // Hiện thông báo đang xử lý
-    msgBox.style.color = "var(--text-muted)";
-    msgBox.innerHTML = "Đang gửi hồ sơ...";
+        // Thu thập dữ liệu khách nhập
+        let name = document.getElementById('name').value;
+        let phone = document.getElementById('phone').value;
+        let msgBox = document.getElementById('form-msg');
 
-    // Dùng setTimeout giả lập thời gian server mạng xử lý (1 giây)
-    setTimeout(() => {
-        // Trả về kết quả thành công
-        msgBox.style.color = "#2e7d32"; // Xanh lá cây
-        msgBox.innerHTML = `✅ Xin chào <b>${name}</b> (${phone}). BLAB WORLDWIDE đã nhận được thông tin. Ban quản lý sẽ liên hệ bạn sớm nhất!`;
-        
-        // Reset form cho trống trơn
-        document.getElementById('registerForm').reset();
-    }, 1000);
-});
+        // Kiểm tra thêm msgBox xem có tồn tại không để tránh lỗi tiếp theo
+        if (msgBox) {
+            msgBox.style.color = "var(--text-muted)";
+            msgBox.innerHTML = "Đang gửi hồ sơ...";
+
+            // Giả lập gửi lên server 1 giây
+            setTimeout(() => {
+                msgBox.style.color = "#2e7d32"; // Xanh lá cây
+                msgBox.innerHTML = `✅ Xin chào <b>${name}</b> (${phone}). BLAB WORLDWIDE đã nhận được thông tin. Ban quản lý sẽ liên hệ bạn sớm nhất!`;
+                
+                // Reset form
+                registerForm.reset();
+            }, 1000);
+        }
+    });
+}
 
 // BƯỚC 4: KÍCH HOẠT CHẠY CODE
 // Lắng nghe sự kiện 'DOMContentLoaded': Khi HTML load xong thì mới bắt đầu chạy hàm renderData
 window.addEventListener('DOMContentLoaded', renderData);
+
+
+const NEWS_ITEMS = [
+    {
+        id: 1, // Mã số bài viết
+        title: "Giải Cầu Lông Mở Rộng BLAB 2026",
+        date: "02/06/2026",
+        desc: "Thông tin chi tiết về giải đấu lớn nhất năm dành cho các tay vợt phong trào.",
+        fullContent: "Đây là nội dung chi tiết của bài viết. <br><br> Giải đấu sẽ diễn ra tại nhà thi đấu... với quy mô lên đến 500 VĐV. <br><br> <strong>Thể thức thi đấu:</strong> Thi đấu loại trực tiếp...",
+        img: "link-anh-1.jpg"
+    },
+    {
+        id: 2, // Mã số bài viết
+        title: "Giải Cầu Lông Mở Rộng BLAB 2026",
+        date: "02/06/2026",
+        desc: "Thông tin chi tiết về giải đấu lớn nhất năm dành cho các tay vợt phong trào.",
+        fullContent: "Đây là nội dung chi tiết của bài viết. <br><br> Giải đấu sẽ diễn ra tại nhà thi đấu... với quy mô lên đến 500 VĐV. <br><br> <strong>Thể thức thi đấu:</strong> Thi đấu loại trực tiếp...",
+        img: "link-anh-1.jpg"
+    },
+    {
+        id: 3,
+        title: "Khai giảng khóa học mới",
+        date: "25/05/2026",
+        desc: "Các lớp học cầu lông từ cơ bản đến nâng cao đã chính thức mở đăng ký.",
+        fullContent: "BLAB chính thức mở đăng ký cho khóa học tháng này. <br><br> Lịch học dự kiến vào các buổi tối thứ 3, 5, 7 hàng tuần. <br><br> Học viên sẽ được trang bị đầy đủ kỹ năng...",
+        img: "img/img.giayyonex.png"
+    }
+];
+
+const newsContainer = document.getElementById('news-container');
+if (newsContainer) {
+NEWS_ITEMS.forEach(item => {
+    newsContainer.innerHTML += `
+        <div class="news-card">
+            <img src="${item.img}" alt="${item.title}">
+            <div class="news-info">
+                <span>${item.date}</span>
+                <h3>${item.title}</h3>
+                <p>${item.desc}</p>
+                <a href="news-detail.html?id=${item.id}" class="read-more-btn">Đọc thêm →</a>
+            </div>
+        </div>
+    `;
+});
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi tiết tin tức | BLAB WORLDWIDE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- (Bạn nhớ copy Header/Menu từ trang chủ dán vào đây để đồng bộ) -->
+
+    <main class="news-detail-page">
+        <div class="container">
+            <p id="detail-date" class="news-date"></p>
+            <h1 id="detail-title" class="news-title">Đang tải dữ liệu...</h1>
+            
+            <div class="news-image-wrapper">
+                <img id="detail-img" src="" alt="Ảnh bài viết">
+            </div>
+            
+            <div id="detail-content" class="news-content"></div>
+            
+            <a href="index.html" class="back-btn">← Quay lại trang chủ</a>
+        </div>
+    </main>
+
+    <!-- Bạn phải gọi file script chứa dữ liệu vào đây -->
+    <script src="script.js"></script>
+    
+    <!-- Code JS tự động lấy dữ liệu theo ID -->
+    <script>
+        // 1. Lấy mã ID trên thanh địa chỉ URL (ví dụ: ?id=1)
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = parseInt(urlParams.get('id'));
+        console.log("ID bài viết cần hiển thị:", articleId);
+
+        // 2. Tìm bài viết có id tương ứng trong mảng NEWS_ITEMS
+        const article = NEWS_ITEMS.find(item => item.id === articleId);
+
+        // 3. Đổ dữ liệu ra màn hình
+        if (article) {
+            document.getElementById('detail-title').innerText = article.title;
+            document.getElementById('detail-date').innerText = article.date;
+            document.getElementById('detail-img').src = article.img;
+            document.getElementById('detail-content').innerHTML = article.fullContent; // Dùng innerHTML để nhận các thẻ <br>, <strong>
+        } else {
+            document.getElementById('detail-title').innerText = "Bài viết không tồn tại hoặc đã bị xóa.";
+        }
+    </script>
+</body>
+</html>
