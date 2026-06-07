@@ -1,56 +1,56 @@
-# Bao cao tien do - Tuan 3
+# Báo cáo tiến độ - Tuần 3
 
-**Thoi gian:** `01/06` - `07/06` (Thu 2 - Thu T)
-**Sinh vien:** `Nguyen Hoang Minh Tam - DX24TT6`
+**Thời gian:** `01/06` - `07/06` (Thứ 2 - Thứ 7)
+**Sinh viên:** `Nguyễn Hòang Minh Tâm - DX24TT6`
 
-Tuan nay them JavaScript interactivity: menu hamburger, carousel, form validation, smooth scroll.
+Tuần này thêm JavaScript interactivity: menu hamburger, carousel, form validation, smooth scroll.
 
-## 1. Noi dung da thuc hien
+## 1. Nội dung đã thực hiện
 
 ### 1.1. JavaScript - Hamburger Menu
-- Toggle mobile menu khi nhan icon
-- Dong menu khi nhan vao link hoac ngoai menu
+- Toggle mobile menu khi nhấn icon
+- Dòng menu khi nhấn vào link hoặc ngòai menu
 - Anim smooth
 
 ### 1.2. JavaScript - Carousel/Slider
-- Hinh slide tu dong (3-5s, can chac)
-- Cac nut prev/next de dieu khien thu cong
-- Dot indicator ben duoi (active slide hien thi)
-- Khong dung library, pure JS
+- Hình slide tự đóng (3-5s, cân nhắc)
+- Các nút prev/next để điều khiển thủ công
+- indicator bên dưới (active slide hiển thị)
+- Không dùng library, pure JS
 
 ### 1.3. JavaScript - Form Validation
-- Kiem tra email format dung
-- Kiem tra so dien thoai (10-11 ky so)
-- Kiem tra message khong trong
-- Show loi validation ben duoi input
+- Kiểm tra email format dùng
+- Kiểm tra số điện thọai (10-11 kỹ số)
+- Kiểm tra message
+- Show lời validation bên dưới input
 
 ### 1.4. JavaScript - Smooth Scroll
-- Click menu link -> cuon toi section tren page
+- Click menu link -> cuộn tới section trên page
 - Anim scroll smooth (window.scrollIntoView)
 
 ### 1.5. Polish CSS + Tweak
-- Chinh lai UI tren mobile (1 so spacing)
-- Them hover effects tren button, link
-- Them transition va animation nho (fade, slide)
+- Chỉnh lại UI trên mobile (1 số spacing)
+- Thêm hover effects tren button, link
+- Thêm transition và animation (fade, slide)
 
-## 2. Kho khan (& quyet dinh ky thuat)
+## 2. Khó khăn (& quyết định kỹ thuật)
 
-1. **Khong dung jQuery hay library JS** - pure vanilla JS, de hoc sinh co the tuc tap sau. Tuy nhien se add comment chi tiet neu logic kho.
+1. **Không dùng jQuery hay library JS** - pure vanilla JS, để học sinh có thể thực tập sau. Tuy nhiên sẽ add comment chi tiết nếu logic khó.
 
-2. **Event listeners da duoc test** - kiem tra browser event khi mobile vs desktop khac nhau (click vs touch). Da test tren Chrome mobile emulator va iPhone 12.
+2. **Event listeners đã được test** - kiểm tra browser event khi mobile vs desktop khác nhau (click vs touch). Đã test trên Chrome mobile emulator và iPhone 15.
 
-3. **Form submit - khong gui server** - chi show thank you message, khong co backend. Neu can gui email notification sau, co the them form handling service (formspree, etc).
+3. **Form submit - không gửi server** - chỉ show thank you message, không có backend. Nếu cần gửi email notification sau, có thể thêm form handling service (formspree, etc).
 
-## 3. Ke hoach tuan sau
+## 3. Kế họach tuần sau
 
-- Tuan 4: Code trang tin tuc (news.html) voi list bai viet, detail page
+- Tuần 4: Code trang tin tức (news.html) với list bài viết, detail page
 - Style xong + final polish
 - Test cross-browser va responsive complete
 
-## 4. Vang diem
+## 4. Vãng điểm
 
-- Script.js hien tai khong optimize tren production (no minify)
-- Se minify + optimize tuoi tuan 8 truoc khi submit
-- Co 1-2 chon logic trong carousel (khong loop seamless like slick.js), nhung du cho phat trien
+- Script.js hiện tại không optimize trên production (no minify)
+- Sẽ minify + optimize cuối tuần 8 trước khi submit
+- Có 1-2 chọn logic trong carousel (không loop seamless like slick.js), nhưng đủ cho phát triển
 
-**Live demo:** Da co the chay `npm start` va test full tren http://localhost:8000
+**Live demo:** Đã có thể chạy `npm start` và test full tren http://localhost:8000
