@@ -1,53 +1,53 @@
-# Bao cao tien do - Tuan 4
+# Báo cáo tiến độ - Tuần 4
 
-**Thoi gian:** `08/06` - `14/06` (Thu 2 - Thu T)
-**Sinh vien:** `Nguyen Hoang Minh Tam - DX24TT6`
+**Thời gian:** `08/06` - `14/06` (Thứ 2 - Thứ 7)
+**Sinh viên:** `Nguyễn Hòang Minh Tâm - DX24TT6`
 
-Tuan nay hoan thanh phan frontend: tao trang tin tuc, contact form, final polish va test day du.
+Tuần này hòan thành phần frontend: tạo trang tin tức, contact form, final polish và test đầy đủ.
 
-## 1. Noi dung da thuc hien
+## 1. Nội dung đã thực hiện
 
-### 1.1. Tao Trang Tin Tuc (news.html)
-- List cac bai viet: tieu de, anh thumb, tom tat, ngay dang
-- Click vao bai -> hien dialog hoac new page voi noi dung day du
-- Khong database, chi dung array trong JS va render HTML
+### 1.1. Tạo Trang Tin Tức (news.html)
+- List các bài viết: tiêu đề, ảnh bài viết, tóm tắt, ngày đăng
+- Click vào bài -> hiện dialog hoặc new page với nội dung đầy đủ
+- Không database, chỉ dùng array trong JS và render HTML
 
 ### 1.2. Trang Contact
-- Form voi field: Ten, Email, Sdt, Tieu de, Noi dung
-- Validation day du (email format, sdt 10-11 so)
-- Submit -> show toast/alert "cam on da lien he"
+- Form với field: Tên, Email, Sdt, Tiêu đề, Nội dung
+- Validation đầy đủ (email format, sdt 10-11 số)
+- Submit -> show toast/alert "cảm ơn đã liên hệ"
 - Reset form sau khi submit
 
 ### 1.3. SEO + Meta Tags
-- Add meta description, keywords vao <head>
-- Open Graph tags (og:title, og:image) de tuyet dep khi share
-- Canonical URL de tranh duplicate content
+- Add meta description, keywords vào <head>
+- Open Graph tags (og:title, og:image) để tuyệt đẹp khi share
+- Canonical URL để tranh duplicate content
 
-### 1.4. Hoan thanh Polish + Testing
-- Test tren di ngang tat ca page
+### 1.4. Hòan thành Polish + Testing
+- Test trên đi ngang tất cả page
 - Test responsive: iPhone 6/7/8, iPad, Desktop
-- Test animation smooth va khong lag
+- Test animation smooth và không lag
 - Test form validation cross-browser
-- Kiem tra console: khong co warning/error
+- Kiểm tra console: không có warning/error
 
-### 1.5. Git commit va Push
-- Commit tung tinh nang logic (hamburger -> commit, carousel -> commit, etc)
-- Push len GitHub truoc tuan 5 bat dau viet thesis
+### 1.5. Git commit và Push
+- Commit từng tính năng logic (hamburger -> commit, carousel -> commit, etc)
+- Push lên GitHub trước tuần 5 bắt đầu viết thesis
 
-## 2. Kho khan (& quyet dinh ky thuat)
+## 2. Khó khăn (& quyết định kỹ thuật)
 
-1. **Tin tuc la array static, khong JSON file** - dung JavaScript array inside script.js va render voi DOM manipulation. Nho gon, dung bang diem.
+1. **Tin tức là array static, không JSON file** - dùng JavaScript array inside script.js và render với DOM manipulation. Nhỏ gọn, dùng bảng điểm.
 
-2. **Form validation toan phat o client** - khong co server backend, chi warning + block submit neu loi. Sau co the them email notification service.
+2. **Form validation tòan phất o client** - không có server backend, chỉ warning + block submit nếu lỗi. Sau có thể thêm email notification service.
 
-3. **Cross-browser support** - da test tren Chrome, Firefox, Safari. IE11 khong support (dung modern JS, const/let/arrow functions, dung var).
+3. **Cross-browser support** - đã test trên Chrome, Firefox, Safari. IE11 không support (dùng modern JS, const/let/arrow functions, dùng var).
 
-## 3. Ke hoach tuan sau
+## 3. Kế họach tuần sau
 
-- Tuan 5: Bat dau viet quy nhan bao cao (thesis)
-- Tuan 5: Chap II - Co so ly thuyet, stack cong nghe
+- Tuần 5: Bắt đầu viết báo cáo (thesis)
+- Tuần 5: Chap II - Cơ sở lý thuyết, stack công nghệ
 
-**Trang thai code hoai thanh:**
+**Trạng thái code hoàn thành:**
 ```
 ✓ index.html: 100%
 ✓ about.html: 100%
@@ -55,8 +55,8 @@ Tuan nay hoan thanh phan frontend: tao trang tin tuc, contact form, final polish
 ✓ contact: 100% (integrated in about or separate)
 ✓ style.css: 100%
 ✓ script.js: 100%
-✓ Responsive: 100% (test tren 5+ devices)
-- Backend/Database: (chua can, static site)
+✓ Responsive: 100% (test trên 5+ devices)
+- Backend/Database: (chưa cần, static site)
 ```
 
-**Ghi chu:** Website san sang de demo cho GVHD vao cuoi tuan 4.
+**Ghi chú:** Website sẵn sàng để demo cho GVHD vào cuối tuần 4.
