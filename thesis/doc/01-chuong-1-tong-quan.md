@@ -4,112 +4,112 @@
 
 ### 1.1.1 Tình hình Cầu Lông hiện tại
 
-Cầu lông là môn thể thao đánh vợt (racquet sport) và rất phổ biến trên thế giới. Theo các thống kê, cầu lông có khỏang 220 triệu người chơi trên thế giới, đặc biệt là ở những nước châu Á như Trung Quốc, Nhật Bản, Han Quoc, va Malaysia.
+Cầu lông là môn thể thao đánh vợt (racquet sport) và rất phổ biến trên thế giới. Theo các thống kê, cầu lông có khỏang 220 triệu người chơi trên thế giới, đặc biệt là ở những nước châu Á như Trung Quốc, Nhật Bản, Hàn Quốc, và Malaysia.
 
-Tai Viet Nam, canh long da phat trien khang hoa trong nam 20 nam tro lai, tuy nhien con con sut nhieu so voi cac nuoc trong khu vuc. Hinh nhu:
+Tại Việt Nam, cầu lông đã phát triển trong khoảng 20 năm trở lại, tuy nhiên còn thua sụt nhiều so với các nước trong khu vực. Hình như:
 
-- Con it trung tam danh cho hoc tap va tap luyen chuan quoc te
-- Nhieu tru khop cua Viet Nam van chua duoc phuc vu dang dung
-- Khong co su lien ket quoc te de trao doi kinh nghiem
+- Còn ít trung tâm dành cho học tập và tập luyện chuẩn quốc tế
+- Nhiều trụ trung tâm cầu lông của Việt Nam vẫn chưa được nhiều người tin tưởng phục vụ đang dùng
+- Không có sự liên kết quốc tế để trao đổi kinh nghiệm
 
-### 1.1.2 Tinh Hinh Website va Trong Chat Dich Vu
+### 1.1.2 Tình Hình Website và Trong Chat Dịch Vụ
 
-Hien nay, cac trung tam canh long o Viet Nam:
+Hiện nay, các trung tâm cầu lông ở Việt Nam:
 
-- Co website, nhung thong thuong la chi trang tinh, khong cap nhat
-- Khong co trang nhan co kien thuc ve canh long, loi ich suc khoe
-- Form dang ky va lien he con kho su dung, khong responsive
-- Khong co section tin tuc, su kien
+- Có website, nhưng thông thường là chỉ trang tỉnh, không cập nhật
+- Không có trang nhận có kiến thức về cầu lông, lợi ích sức khỏe
+- Form đăng ký và liên hệ còn khó sử dụng, không responsive
+- Không có section tin tức, sự kiện
 
-### 1.1.3 Tien Ich Cua Giai Phap
+### 1.1.3 Tiện Ích Của Giải Pháp
 
-Mot website modern, responsive, va user-friendly co the:
+Một website modern, responsive, và user-friendly có thể:
 
-- Tang nhan thuc cua cong dong ve canh long
-- Tao cach thong tin va dang ky dang dung
-- Giup trung tam mo rong ra khach hang ngoai da
-- Tao tiem nang phat trien backend va database sau
+- Tăng nhận thức của cộng đồng về cầu lông
+- Tạo cách cung cấp thông tin và đăng ký đang dùng
+- Giúp trung tâm mở rộng ra khách hàng bên ngòai
+- Tạo tiềm năng phát triển backend và database sau
 
-## 1.2 Van De Can Giai Quyet
+## 1.2 Vấn Đề Cần Giải Quyết
 
-1. **Website hien tai khong responsive:** Khach hang truy cap bang dien thoai gap kho khan
-2. **Thieu thong tin chi tiet:** Khong co clear information ve giao vien, lich tap, quy phi
-3. **Kho dang ky:** Form dang ky long von, khong co validation, van de an toan
-4. **Khong co tin tuc:** Khong co section update su kien, giai dau, thanh tich
+1. **Website hiện tại không responsive:** Khách hàng truy cập bằng điện thọai gặp khó khăn
+2. **Thiếu thông tin chi tiết:** Không có clear information về giao viên, lịch tập, học phí
+3. **Khó đăng ký:** Form đăng ký lòng vòng, không có validation, vấn đề an tòan
+4. **Không có tin tức:** Không có section update sự kiện, giải đấu, thành tích
 
-## 1.3 Giai Phap De Xuat
+## 1.3 Giải Pháp Đề Xuất
 
-De giai quyet cac van de tren, em de xuat xay dung: **Website Gioi Thieu Trung Tam The Duc The Thao Canh Long**
+Đề giải quyết các vấn đề trên, em đề xuất xây dựng: **Website Giới Thiệu Trung Tâm Thể Dục Thể Thao Cầu Lông**
 
-### Tieu Chi Chinh
-- Responsive design: chay tot tren mobile, tablet, desktop
-- User-friendly interface: de su dung, khong puc tap
-- Thong tin toan dien: ve trung tam, giao vien, lop hoc, tin tuc
-- Form contact: de lien he va dang ky tham gia
-- SEO & Accessibility: tuot tim kiem, dang su dung cho tat ca
+### Tiêu Chí Chỉnh
+- Responsive design: chạy tốt trên mobile, tablet, desktop
+- User-friendly interface: để sử dụng, không phức tạp
+- Thông tin tòan diện: về trung tâm, giáo viên, lớp học, tin tức
+- Form contact: để liện hệ và đăng ký tham gia
+- SEO & Accessibility: tuot tìm kiếm, đang sử dụng cho tất cả
 
-### Stack Cong Nghe
-- Frontend: HTML5, CSS3, JavaScript vanilla (khong framework)
-- Backend: Node.js + Express (server nho de phuc vu static files)
+### Stack Công Nghệ
+- Frontend: HTML5, CSS3, JavaScript vanilla (không framework)
+- Backend: Node.js + Express (server nhớ để phục vụ static files)
 - Deployment: Docker + docker-compose
 - Repository: GitHub
 
-## 1.4 Phuong Phap Nghien Cuu
+## 1.4 Phương Pháp Nghiên Cứu
 
-1. **Literature review:** Doc cac bai bao ve web design, responsive design, user experience
-2. **Case study:** Tham khao website canh long cua cac nuoc khac (UK, Japan, Korea, Malaysia)
-3. **Requirement analysis:** Tham tam yeu cau cu the cua trung tam va khach hang
-4. **Agile development:** Phat trien theo sprint 8 tuan, co testing va feedback constant
+1. **Literature review:** Đọc các bài báo về web design, responsive design, user experience
+2. **Case study:** Tham khảo website cầu lông của các nuoc khác (UK, Japan, Korea, Malaysia)
+3. **Requirement analysis:** Tham khảo yêu cầu cụ thể của trung tâm và khách hàng
+4. **Agile development:** Phát triển theo sprint 8 tuần, có testing và feedback constant
 
-## 1.5 Cau Truc Do An
+## 1.5 Cấu Trúc Đồ Án
 
-### 1.5.1 Cau Truc Tong Quat
+### 1.5.1 Cấu Trúc Tổng Quát
 
-Do an nay gom:
+Đồ án này gồm:
 
-| Phan | Noi Dung | Tuan |
+| Phần | Nội Dung | Tuần |
 |------|----------|------|
-| Setup & Phan tich | Repository, ERD, requirement | 1 |
+| Setup & Phân tích | Repository, ERD, requirement | 1 |
 | Frontend Development | HTML, CSS, JavaScript | 2-4 |
 | Documentation | Thesis chapters, progress report | 5-7 |
 | Finalization | Docker, README, submission | 8 |
 
-### 1.5.2 Timeline Chi Tiet
+### 1.5.2 Timeline Chi Tiết
 
-**Tuan 1:** Setup
-- Tao repository tren GitHub
-- Phan tich yeu cau chi tiet
-- Ve ERD (reference for future)
-- Xay dung skeleton cau truc
+**Tuần 1:** Setup
+- Tạo repository trên GitHub
+- Phân tích yêu cầu chi tiết
+- Về ERD (reference for future)
+- Xây dựng skeleton cấu trúc
 
-**Tuan 2-4:** Frontend Development
-- Tuan 2: HTML + CSS (index, about)
-- Tuan 3: JavaScript interactivity (menu, carousel, form)
-- Tuan 4: News page, final testing, responsive polish
+**Tuần 2-4:** Frontend Development
+- Tuần 2: HTML + CSS (index, about)
+- Tuần 3: JavaScript interactivity (menu, carousel, form)
+- Tuần 4: News page, final testing, responsive polish
 
-**Tuan 5-7:** Thesis & Documentation
-- Tuan 5: Mo dau, Chap I-II (overview, technology)
-- Tuan 6: Chap III-IV (implementation, results)
-- Tuan 7: Chap V, phu luc, convert Word
+**Tuần 5-7:** Thesis & Documentation
+- Tuần 5: Mở đầu, Chap I-II (overview, technology)
+- Tuần 6: Chap III-IV (implementation, results)
+- Tuần 7: Chap V, phụ lục, convert Word
 
-**Tuan 8:** Final & Submission
+**Tuần 8:** Final & Submission
 - Docker finalize
 - README update
 - GitHub push
 - Submission to school
 
-## 1.6 Contribution & Trang Thai
+## 1.6 Contribution & Trạng Thái
 
-Do an nay da hoan thanh:
+Đồ án này đã hòan thành:
 
-- Phan tich chi tiet yeu cau cua de tai
-- Tao cau truc repo theo chuan cua trung
-- Chuan bi setup va mo truong
+- Phân tích chi tiết yêu cầu của đề tài
+- Tạo cấu trúc repo theo chuẩn của chung
+- Chuẩn bị setup và mở chương
 
-Nhung phan con lai se hoan thanh trong 7 tuan tiep theo.
+Những phần còn lại sẽ hòan thành trong 7 tuần tiếp theo.
 
 ---
 
-**Ket Luan Chuong I:**
+**Kết Luận Chuong I:**
 
-De tai website canh long Viet Nam la co y nghia, co the cai dung vao thuc te, va tro giup nang cao nhan thuc ve canh long. Stack cong nghe da chon la phu hop, de hoc tap, va co the mo rong sau. Timeline 8 tuan la hop ly de hoan thanh day du.
+Đề tài website cầu lông Việt Nam là có ý nghĩa, có thể cài dùng vào thực tế, và trợ giúp nâng cao nhận thức về cầu lông. Stack công nghệ đã chọn là phù hợp, để học tập, và có thể mở rộng sau. Timeline 8 tuần là hợp lý để hòan thành đầy đủ.
