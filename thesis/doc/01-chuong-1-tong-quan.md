@@ -1,10 +1,10 @@
-# Chuong I: Tong Quan
+# Chương I: Tổng Quan
 
-## 1.1 Boi Canh
+## 1.1 Bối Cảnh
 
-### 1.1.1 Tinh Hinh Canh Long Hien Tai
+### 1.1.1 Tình hình Cầu Lông hiện tại
 
-Canh long la mon the thao danh vot (racquet sport) khong khon suc va rat pho bien tren the gioi. Theo cac thong ke, canh long co khoang 220 trieu nguoi choi tren the gioi, dac biet la o nhung nuoc chau A nhu Trung Quoc, Nhat Ban, Han Quoc, va Malaysia.
+Cầu lông là môn thể thao đánh vợt (racquet sport) và rất phổ biến trên thế giới. Theo các thống kê, cầu lông có khỏang 220 triệu người chơi trên thế giới, đặc biệt là ở những nước châu Á như Trung Quốc, Nhật Bản, Han Quoc, va Malaysia.
 
 Tai Viet Nam, canh long da phat trien khang hoa trong nam 20 nam tro lai, tuy nhien con con sut nhieu so voi cac nuoc trong khu vuc. Hinh nhu:
 
