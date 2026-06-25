@@ -1,37 +1,37 @@
-# Loi Cam On
+# Lời Cảm Ơn
 
 ---
 
-Thuc hanh Cơ Sở Ngành (CSN) la mot trong nhung hoat dong co y nghia nhat trong qua trinh dao tao. Tuy nhinh, cong viec nay khong the hoan thanh dung nhat khong co su giup do va ho tro tu nhung nguoi xung quanh.
+Thực hành Cơ Sở Ngành (CSN) là một trong những họat động có ý nghĩa nhất trong quá trình đào tạo. Tuy nhiên, công việc này không thể hòan thành đúng nhất không có sự giúp đỡ và hỗ trợ từ những người xung quanh.
 
-Em xin gui loi cam on sau day:
+Em xin gửi lời cảm ơn sau đây:
 
-## Cam On GVHD
+## Cảm Ơn GVHD
 
-Toi gui cam on chinh yeu toi **GVHD Duong Ngoc Van Khanh** - cac chu nhan cua tac pham nay. GVHD da tei huong dan em khong chi ve cac kien thuc ky thuat, ma con day em cach lam viec hoc tap, cach tro thanh mot lap trinh vien co chiu dung va co trach nhiem.
+Em gửi lời cảm ơn chính đến **GVHD Dương Ngọc Vân Khanh** - là GVHD của tác phẩm này. GVHD đã huớng dẫn em không chỉ về các kiến thức kỹ thuật, mà còn dậy em cách làm việc học tập, cách trở thành một lập trình viên có chịu đựng và có trách nhiệm.
 
-Trong suot 8 tuan phat trien, GVHD da:
-- Giup em phan tich yeu cau chi tiet va dua ra giai phap thich hop
-- Huong dan em tren cac kho khan khi code va test
-- Cung cap tai lieu, reference, va cac link hoc tap
-- Cho em tu do phat trien, tuy nhien luon san sang tro giup khi can
+Trong suốt 8 tuần phát triển, GVHD đã:
+- Giúp em phân tích yêu cầu chi tiết và đưa ra giải pháp thích hợp
+- Huớng dẫn em trên các khó khăn khi code và test
+- Chỉ em những tài liệu tham khảo, reference, và các link học tập
+- Cho em từ đó phát triển, tuy nhiên luôn sằn sàng trợ giúp khi cần
 
-Cam on GVHD da tin tuong va to giup em thuc hien cong viec nay.
+Cảm ơn GVHD đã tin tưởng và giúp em thực hiện công việc này.
 
-## Cam On Nha Truong
+## Cảm Ơn Nhà Trường
 
-Em xin cam on **Trung tam Khai pho Cong Nghe va Ky Thuat Tru - Dai hoc Tra Vinh** da cap tao co hoi thuc hanh Cơ Sở Ngành. Nha truong da:
-- Cap phap du thiet bi, moi truong dao tao
-- To chuc hop dan va huong dan cho cac sinh vien
-- Tao nien dieu cho sinh vien phat trien project ca nhan
+Em xin cảm ơn **Trung tâm Khai pho Công Nghệ và Kỹ Thuật Tru - Dai hoc Tra Vinh** đã tạo cơ hội thực hành Cơ Sở Ngành. Nhà trường đã:
+- Cấp phát thiết bị, môi trường đào tạo
+- Tổ chức học và huớng dẫn cho các sinh viên
+- Tạo điều kiện cho sinh viên phát triển project cá nhân
 
-## Cam On Gia Dinh
+## Cảm Ơn Gia Đình
 
-Em xin cam on gia dinh da luon ung ho, khuyen khich, va tao dieu kien cho em tap trung hoc tap va phat trien project nay. Cai hy sinh va tren trai cua gia dinh la dong luc quan trong de em hoan thanh cong viec.
+Em xin cảm ơn gia đình đã luôn ủng hộ, khuyến khích, và tạo điều kiện cho em tập trung học tập và phát triển project này. Cái hỗ trợ của gia đình là động lực quan trọng để em hòan thành công việc.
 
-## Cam On Cac Dong Nghiep
+## Cảm Ơn Các Đồng Nghiệp
 
-Em xin cam on cac sinh vien cung lop DX24TT6 da trao doi, chia se kinh nghiem, va tro giup em trong qua trinh hoc tap va phat trien.
+Em xin cảm ơn các sinh viên cùng lớp DX24TT6 đã trao đổi, chia sẽ kinh nghiệm, và trợ giúp em trong quá trình học tập và phát triển.
 
 ---
 
@@ -41,7 +41,7 @@ Cam on that!
 
 ---
 
-*Nguyen Hoang Minh Tam*
-*Sinh vien lop DX24TT6*
-*Truong Ky Thuat va Cong Nghe - Dai hoc Tra Vinh*
-*Thang 7 Nam 2024*
+*Nguyễn Hòang Minh Tâm*
+*Sinh viên lớp DX24TT6*
+*Trường Kỹ Thuật và Công Nghệ - Đại học Trà Vinh*
+*Tháng 6 Năm 2025*
