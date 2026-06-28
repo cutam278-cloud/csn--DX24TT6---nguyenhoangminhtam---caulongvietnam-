@@ -2,21 +2,21 @@
 
 ---
 
-## Tai Lieu Trong Nuoc
+## Tài Liệu Trong Nước
 
-[1] Tran Duy An, "Web Design Best Practices cho Cong Ty Viet Nam", Nha xuat ban Thong Tin va Truyen Thong, 2022.
+[1] Trần Duy An, "Web Design Best Practices cho Công Ty Việt Nam", Nhà xuất bản Thông Tin và Truyền Thông, 2022.
 
-[2] Pham Hoang Minh, Nguyen Van B, "Phat trien Website voi HTML5 va CSS3", Khoa Cong Nghe Thong Tin - Dai hoc Bac Ha, 2021.
+[2] Phạm Hòang Minh, Nguyên Văn Tiến, "Phát triển Website với HTML5 và CSS3", Khoa Công Nghệ Thông Tin - Đại học Bắc Hà, 2021.
 
-[3] Vo Quang Huy, "JavaScript va jQuery cho Web Developer", Giao duc Pho thong, Nha xuat ban Ky Thuat, 2020.
+[3] Võ Quang Huy, "JavaScript và jQuery cho Web Developer", Giáo dục Phổ thông, Nhà xuất bản Kỹ Thuật, 2020.
 
-[4] Le Thi Thanh Huong, "E-Commerce Platform for Small Business in Vietnam", Journal of Information Technology, Vol. 10, No. 3, 2022.
+[4] Lê Thị Thanh Hương, "E-Commerce Platform for Small Business in Vietnam", Journal of Information Technology, Vol. 10, No. 3, 2022.
 
-[5] Dang Minh Duc, Tran Thi Linh, "Cloud Computing Applications in Web Development", Workshop on Modern Technologies, Hanoi, 2023.
+[5] Đặng Minh Đức, Trần Thị Linh, "Cloud Computing Applications in Web Development", Workshop on Modern Technologies, Hanoi, 2023.
 
 ---
 
-## Tai Lieu Quoc Te - Sach va Cong Trinh Khoa Hoc
+## Tài Liệu Quốc Tế - Sách và Công Trình Khoa Hoc
 
 [6] Jon Duckett, "HTML and CSS: Design and Build Websites", 3rd Edition, Wiley, 2014.
 
@@ -34,15 +34,15 @@
 
 ---
 
-## Tai Lieu Online va Cong Nghiep Chuan
+## Tài Liệu Online và Công Nghệ
 
-[13] Mozilla Developer Network (MDN), "MDN Web Docs - HTML, CSS, JavaScript Reference", https://developer.mozilla.org, truy cap 2024.
+[13] Mozilla Developer Network (MDN), "MDN Web Docs - HTML, CSS, JavaScript Reference", https://developer.mozilla.org, truy cập 2026.
 
 [14] World Wide Web Consortium (W3C), "Web Content Accessibility Guidelines 2.1 (WCAG)", https://www.w3.org/WAI/WCAG21/quickref/, 2023.
 
 [15] Google Developers, "Web Fundamentals - Responsive Web Design", https://developers.google.com/web/fundamentals/design-and-ux/responsive, 2023.
 
-[16] CSS-Tricks, "A Complete Guide to Flexbox", https://css-tricks.com/snippets/css/a-guide-to-flexbox/, truy cap 2024.
+[16] CSS-Tricks, "A Complete Guide to Flexbox", https://css-tricks.com/snippets/css/a-guide-to-flexbox/, truy cập 2026.
 
 [17] Can I Use, "Web Platform Compatibility Database", https://caniuse.com, 2024.
 
@@ -50,7 +50,7 @@
 
 ---
 
-## Tai Lieu Huong Dan Chuyen Mon
+## Tài Liệu Hướng Dẫn Chuyên Môn
 
 [19] Express.js Official Guide, "Express.js - Fast, unopinionated, minimalist web framework for node", https://expressjs.com, 2024.
 
@@ -58,7 +58,7 @@
 
 ---
 
-## Tai Lieu Tham Khao Thuc Tinh
+## Tài Liệu Tham Khảo Thực Tỉnh
 
 [21] Badminton World Federation (BWF), "Official Badminton Rules and Regulations", https://bwfbadminton.org, 2024.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Tai Lieu Khac
+## Tài Liệu Khác
 
 [23] GitHub Learning Lab, "Introduction to GitHub", https://lab.github.com, 2024.
 
@@ -76,15 +76,15 @@
 
 ---
 
-## Ghi Chu ve Cac Tai Lieu
+## Ghí  về Các Tài Liệu
 
-Cac tai lieu tren bao gom:
-- **Tai lieu trong nuoc:** Sach, bao cao, va cong trinh cua cac nha khoa hoc Viet Nam
-- **Tai lieu quoc te:** Sach viet, cong trinh khoa hoc, va huong dan tro chuc quoc te (W3C, MDN, Google)
-- **Tai lieu online:** Website, blog, va tai lieu cong khai tren internet
-- **Tai lieu chuan:** Official specifications va best practices tu industry leaders
+Các tài liệu trên bao gồm:
+- **Tài liệu trong nước:** Sách, báo cáo, và công trình của các nhà khoa học Việt Nam
+- **Tài liệu quốc tế:** Sách viết, công trình khoa học, và huớng dẫn quốc tế (W3C, MDN, Google)
+- **Tài liệu online:** Website, blog, và tài liệu công khai trên internet
+- **Tài liệu chuẩn:** Official specifications và best practices từ industry leaders
 
-Toan bo cac tai lieu nay da duoc em tham khao va su dung trong qua trinh hoc tap va phat trien do an nay. Cam on cac tac gia va nha xuat ban da cap phep su dung cac tai lieu co dung dang.
+Toàn bộ các tài liệu này đã được em tham khao và sử dụng trong quá trình học tập và phát triển đồ án này. Cảm ơn các tác giả và nhà xuất bản đã cấp phép sử dụng các tài liệu.
 
 ---
 
